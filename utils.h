@@ -11,6 +11,7 @@ char memory[MEMORY_SIZE];
 
 uint8_t V[16];
 uint16_t pc;
+uint16_t i;
 
 void load_game(char* path);
 
